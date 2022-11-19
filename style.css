@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.para {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+select {
+    width: 140px;
+    height: 35px;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+option {
+    color: black;
+}
+
+#item {
+    color: white;
+    font-size: 20px;
+    height: 200px;
+}
+
+#item.text {
+    width: 10px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background: white;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
