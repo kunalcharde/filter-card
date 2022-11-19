@@ -4,9 +4,9 @@ function getSelectedValue() {
 }
 
 const employeeArr = [
-  { id: 1, name: "John", age: "18", profession: "developer" },
-  { id: 2, name: "Jack", age: "20", profession: "developer" },
-  { id: 3, name: "Karen", age: "19", profession: "admin" },
+  { id: 1, name: "John", profession: "Developer",age: "19"  },
+  { id: 2, name: "Jack",  profession: "Developer",age: "20" },
+  { id: 3, name: "Karen",  profession: "Admin",age: "19", },
 ];
 
 filterEmployee = () => {
@@ -21,17 +21,17 @@ filterEmployee = () => {
       "&nbsp&nbsp&nbsp&nbsp&nbsp" +
       user.name +
       "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" +
+      user.profession+
+      "&nbsp&nbsp&nbsp&nbsp&nbsp" +
       user.age +
-      "&nbsp&nbsp&nbsp&nbsp&nbsp" +
-      user.profession +
-      "&nbsp&nbsp&nbsp&nbsp&nbsp" +
-      "<br><br>";
+      "&nbsp&nbsp&nbsp&nbsp&nbsp"
+      +"<br><br>";
   }
   document.getElementById("item").innerHTML = text;
 };
 
 filteredEmployee = (employee) => {
-  if (selectedValue == "profession") {
+  if (selectedValue == "Profession") {
     return true;
   }
   return employee.profession == selectedValue;
