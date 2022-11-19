@@ -34,6 +34,15 @@ option {
     color: black;
 }
 
+.table-row {
+    width: 235px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size:20px;
+}
+
 #item {
     color: white;
     font-size: 20px;
