@@ -37,3 +37,4 @@ filteredEmployee = (employee) => {
   return employee.profession == selectedValue;
 };
 filterEmployee();
+
